@@ -59,7 +59,7 @@ class _PostforumpageWidgetState extends State<PostforumpageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(0.00, 0.00),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Text(
               'Post a Forum',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -80,7 +80,7 @@ class _PostforumpageWidgetState extends State<PostforumpageWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 120.0),
@@ -105,7 +105,6 @@ class _PostforumpageWidgetState extends State<PostforumpageWidget> {
                   child: TextFormField(
                     controller: _model.textController,
                     focusNode: _model.textFieldFocusNode,
-                    autofocus: true,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Type Here...',

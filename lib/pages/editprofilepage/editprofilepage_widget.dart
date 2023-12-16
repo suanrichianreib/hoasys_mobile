@@ -72,7 +72,7 @@ class _EditprofilepageWidgetState extends State<EditprofilepageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(0.00, 0.00),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Text(
               'Profile Settings',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -92,7 +92,7 @@ class _EditprofilepageWidgetState extends State<EditprofilepageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 0.0),
@@ -125,7 +125,7 @@ class _EditprofilepageWidgetState extends State<EditprofilepageWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(1.00, -1.00),
+                  alignment: AlignmentDirectional(1.0, -1.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 70.0, 0.0),
@@ -277,7 +277,6 @@ class _EditprofilepageWidgetState extends State<EditprofilepageWidget> {
                   child: TextFormField(
                     controller: _model.textController3,
                     focusNode: _model.textFieldFocusNode3,
-                    autofocus: true,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Old Password',
@@ -322,7 +321,6 @@ class _EditprofilepageWidgetState extends State<EditprofilepageWidget> {
                   child: TextFormField(
                     controller: _model.textController4,
                     focusNode: _model.textFieldFocusNode4,
-                    autofocus: true,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'New Password',
@@ -367,7 +365,6 @@ class _EditprofilepageWidgetState extends State<EditprofilepageWidget> {
                   child: TextFormField(
                     controller: _model.textController5,
                     focusNode: _model.textFieldFocusNode5,
-                    autofocus: true,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Repeat New Password',

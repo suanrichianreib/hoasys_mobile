@@ -40,9 +40,9 @@ class _SendnewpassWidgetState extends State<SendnewpassWidget> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: AlignmentDirectional(0.00, 0.00),
+      alignment: AlignmentDirectional(0.0, 0.0),
       child: Padding(
-        padding: EdgeInsetsDirectional.fromSTEB(30.0, 300.0, 30.0, 350.0),
+        padding: EdgeInsetsDirectional.fromSTEB(30.0, 230.0, 30.0, 240.0),
         child: Container(
           width: 400.0,
           height: 140.0,
@@ -51,13 +51,13 @@ class _SendnewpassWidgetState extends State<SendnewpassWidget> {
             borderRadius: BorderRadius.circular(20.0),
           ),
           child: Align(
-            alignment: AlignmentDirectional(0.00, -1.00),
+            alignment: AlignmentDirectional(0.0, -1.0),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Align(
-                    alignment: AlignmentDirectional(0.00, 0.00),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
@@ -72,7 +72,7 @@ class _SendnewpassWidgetState extends State<SendnewpassWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.00, 0.00),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 15.0, 0.0, 20.0),

@@ -55,7 +55,7 @@ class _NotificationpageWidgetState extends State<NotificationpageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(0.00, 0.00),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Text(
               'Notifications',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -75,7 +75,7 @@ class _NotificationpageWidgetState extends State<NotificationpageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 20.0),
@@ -96,7 +96,7 @@ class _NotificationpageWidgetState extends State<NotificationpageWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(-1.00, -1.00),
+                  alignment: AlignmentDirectional(-1.0, -1.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 0.0),
@@ -123,7 +123,7 @@ class _NotificationpageWidgetState extends State<NotificationpageWidget> {
                   color: FlutterFlowTheme.of(context).primaryText,
                 ),
                 Align(
-                  alignment: AlignmentDirectional(-1.00, -1.00),
+                  alignment: AlignmentDirectional(-1.0, -1.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 0.0),

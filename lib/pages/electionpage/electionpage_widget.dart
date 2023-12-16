@@ -55,7 +55,7 @@ class _ElectionpageWidgetState extends State<ElectionpageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(0.00, 0.00),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Text(
               'Election',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -75,7 +75,7 @@ class _ElectionpageWidgetState extends State<ElectionpageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 0.0),

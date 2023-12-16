@@ -57,7 +57,7 @@ class _OtherWidgetState extends State<OtherWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(-1.00, 0.00),
+            alignment: AlignmentDirectional(-1.0, 0.0),
             child: Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 5.0, 135.0, 0.0),
               child: Container(
@@ -89,7 +89,7 @@ class _OtherWidgetState extends State<OtherWidget> {
                 shape: badges.BadgeShape.circle,
                 badgeColor: Color(0xFFFF0000),
                 elevation: 4.0,
-                padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                padding: EdgeInsets.all(8.0),
                 position: badges.BadgePosition.topEnd(),
                 animationType: badges.BadgeAnimationType.scale,
                 toAnimate: true,
@@ -128,7 +128,7 @@ class _OtherWidgetState extends State<OtherWidget> {
                   scrollDirection: Axis.vertical,
                   children: [
                     Align(
-                      alignment: AlignmentDirectional(0.00, 0.00),
+                      alignment: AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 0.0),
@@ -147,7 +147,7 @@ class _OtherWidgetState extends State<OtherWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(0.00, 0.00),
+                      alignment: AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
@@ -164,7 +164,7 @@ class _OtherWidgetState extends State<OtherWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(0.00, 0.00),
+                      alignment: AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 0.0),
@@ -189,7 +189,7 @@ class _OtherWidgetState extends State<OtherWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(0.00, 0.00),
+                      alignment: AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
@@ -214,7 +214,7 @@ class _OtherWidgetState extends State<OtherWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(0.00, 0.00),
+                      alignment: AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),

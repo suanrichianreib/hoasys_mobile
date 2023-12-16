@@ -79,7 +79,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                 shape: badges.BadgeShape.circle,
                 badgeColor: Color(0xFFFF0000),
                 elevation: 4.0,
-                padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                padding: EdgeInsets.all(8.0),
                 position: badges.BadgePosition.topEnd(),
                 animationType: badges.BadgeAnimationType.scale,
                 toAnimate: true,
@@ -109,7 +109,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
         body: SafeArea(
           top: true,
           child: Align(
-            alignment: AlignmentDirectional(-1.00, -1.00),
+            alignment: AlignmentDirectional(-1.0, -1.0),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.max,
@@ -172,7 +172,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(1.00, -1.00),
+                        alignment: AlignmentDirectional(1.0, -1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               15.0, 0.0, 0.0, 0.0),
@@ -315,7 +315,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Align(
-                        alignment: AlignmentDirectional(-1.00, -1.00),
+                        alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               16.0, 10.0, 0.0, 0.0),
@@ -331,7 +331,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-1.00, -1.00),
+                        alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               25.0, 10.0, 0.0, 0.0),
@@ -347,7 +347,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-1.00, -1.00),
+                        alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               45.0, 10.0, 20.0, 0.0),
@@ -363,7 +363,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-1.00, -1.00),
+                        alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               25.0, 10.0, 0.0, 0.0),
@@ -379,7 +379,7 @@ class _RecordspageWidgetState extends State<RecordspageWidget> {
                         ),
                       ),
                       Align(
-                        alignment: AlignmentDirectional(-1.00, -1.00),
+                        alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
                               55.0, 10.0, 0.0, 0.0),

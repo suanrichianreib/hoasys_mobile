@@ -66,7 +66,7 @@ class _SubmitconcernpageWidgetState extends State<SubmitconcernpageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(0.00, 0.00),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Text(
               'Submit a Concern',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -87,7 +87,7 @@ class _SubmitconcernpageWidgetState extends State<SubmitconcernpageWidget> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 0.0),
@@ -123,7 +123,6 @@ class _SubmitconcernpageWidgetState extends State<SubmitconcernpageWidget> {
                   child: TextFormField(
                     controller: _model.textController1,
                     focusNode: _model.textFieldFocusNode1,
-                    autofocus: true,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Title',
@@ -175,7 +174,6 @@ class _SubmitconcernpageWidgetState extends State<SubmitconcernpageWidget> {
                   child: TextFormField(
                     controller: _model.textController2,
                     focusNode: _model.textFieldFocusNode2,
-                    autofocus: true,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Description',
@@ -212,7 +210,7 @@ class _SubmitconcernpageWidgetState extends State<SubmitconcernpageWidget> {
                     ),
                     style: FlutterFlowTheme.of(context).bodyMedium,
                     textAlign: TextAlign.justify,
-                    maxLines: 11,
+                    maxLines: 9,
                     maxLength: 500,
                     validator:
                         _model.textController2Validator.asValidator(context),
@@ -223,7 +221,7 @@ class _SubmitconcernpageWidgetState extends State<SubmitconcernpageWidget> {
                   color: Colors.black,
                 ),
                 Align(
-                  alignment: AlignmentDirectional(0.00, -1.00),
+                  alignment: AlignmentDirectional(0.0, -1.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,

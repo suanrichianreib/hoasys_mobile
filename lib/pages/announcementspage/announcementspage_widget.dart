@@ -57,7 +57,7 @@ class _AnnouncementspageWidgetState extends State<AnnouncementspageWidget> {
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: AlignmentDirectional(0.00, 0.00),
+            alignment: AlignmentDirectional(0.0, 0.0),
             child: Text(
               'Announcements',
               style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -77,7 +77,7 @@ class _AnnouncementspageWidgetState extends State<AnnouncementspageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 0.0),
@@ -98,7 +98,7 @@ class _AnnouncementspageWidgetState extends State<AnnouncementspageWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(20.0, 40.0, 0.0, 0.0),
@@ -140,7 +140,7 @@ class _AnnouncementspageWidgetState extends State<AnnouncementspageWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(27.0, 0.0, 0.0, 0.0),

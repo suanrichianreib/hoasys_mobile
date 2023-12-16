@@ -74,7 +74,7 @@ class _ForgotpasspageWidgetState extends State<ForgotpasspageWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(-1.00, 0.00),
+                  alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(53.0, 50.0, 0.0, 0.0),
@@ -94,7 +94,6 @@ class _ForgotpasspageWidgetState extends State<ForgotpasspageWidget> {
                         child: TextFormField(
                           controller: _model.emailaddController,
                           focusNode: _model.emailaddFocusNode,
-                          autofocus: true,
                           obscureText: false,
                           decoration: InputDecoration(
                             labelStyle:
@@ -138,7 +137,7 @@ class _ForgotpasspageWidgetState extends State<ForgotpasspageWidget> {
                   ],
                 ),
                 Align(
-                  alignment: AlignmentDirectional(0.00, 0.00),
+                  alignment: AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 0.0),
@@ -187,7 +186,7 @@ class _ForgotpasspageWidgetState extends State<ForgotpasspageWidget> {
                   ),
                 ),
                 Align(
-                  alignment: AlignmentDirectional(0.00, 0.00),
+                  alignment: AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 30.0),

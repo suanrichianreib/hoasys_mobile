@@ -91,7 +91,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
                 shape: badges.BadgeShape.circle,
                 badgeColor: Color(0xFFFF0000),
                 elevation: 4.0,
-                padding: EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                padding: EdgeInsets.all(8.0),
                 position: badges.BadgePosition.topEnd(),
                 animationType: badges.BadgeAnimationType.scale,
                 toAnimate: true,
@@ -125,7 +125,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Align(
-                  alignment: AlignmentDirectional(0.00, -1.00),
+                  alignment: AlignmentDirectional(0.0, -1.0),
                   child: Padding(
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
@@ -146,7 +146,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Align(
-                                alignment: AlignmentDirectional(-1.00, -1.00),
+                                alignment: AlignmentDirectional(-1.0, -1.0),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       3.0, 0.0, 0.0, 0.0),
@@ -158,7 +158,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(-1.00, -1.00),
+                                alignment: AlignmentDirectional(-1.0, -1.0),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       5.0, 0.0, 0.0, 0.0),
@@ -215,7 +215,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Align(
-                                alignment: AlignmentDirectional(1.00, -1.00),
+                                alignment: AlignmentDirectional(1.0, -1.0),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       3.0, 0.0, 0.0, 0.0),
@@ -227,7 +227,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(1.00, -1.00),
+                                alignment: AlignmentDirectional(1.0, -1.0),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       5.0, 0.0, 0.0, 0.0),
@@ -241,7 +241,7 @@ class _ConcernspageWidgetState extends State<ConcernspageWidget> {
                             ],
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.00, 0.00),
+                            alignment: AlignmentDirectional(0.0, 0.0),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 24.0, 0.0, 0.0),

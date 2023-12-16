@@ -61,13 +61,13 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
         body: SafeArea(
           top: true,
           child: Align(
-            alignment: AlignmentDirectional(-1.00, 0.00),
+            alignment: AlignmentDirectional(-1.0, 0.0),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Align(
-                    alignment: AlignmentDirectional(1.00, 0.00),
+                    alignment: AlignmentDirectional(1.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 25.0, 0.0),
@@ -105,7 +105,7 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.00, 0.00),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 100.0, 0.0, 0.0),
@@ -116,13 +116,13 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                           width: 405.0,
                           height: 140.0,
                           fit: BoxFit.cover,
-                          alignment: Alignment(1.00, 0.00),
+                          alignment: Alignment(1.0, 0.0),
                         ),
                       ),
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-1.00, 0.00),
+                    alignment: AlignmentDirectional(-1.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(53.0, 30.0, 0.0, 0.0),
@@ -133,7 +133,7 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.00, 0.00),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -144,7 +144,6 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                             child: TextFormField(
                               controller: _model.usernameController,
                               focusNode: _model.usernameFocusNode,
-                              autofocus: true,
                               obscureText: false,
                               decoration: InputDecoration(
                                 labelStyle: FlutterFlowTheme.of(context)
@@ -201,7 +200,7 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-1.00, 0.00),
+                    alignment: AlignmentDirectional(-1.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(53.0, 25.0, 0.0, 0.0),
@@ -216,14 +215,13 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                     children: [
                       Expanded(
                         child: Align(
-                          alignment: AlignmentDirectional(0.00, 0.00),
+                          alignment: AlignmentDirectional(0.0, 0.0),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 50.0, 0.0, 50.0, 0.0),
                             child: TextFormField(
                               controller: _model.passwordController,
                               focusNode: _model.passwordFocusNode,
-                              autofocus: true,
                               obscureText: !_model.passwordVisibility,
                               decoration: InputDecoration(
                                 labelStyle:
@@ -312,7 +310,7 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.00, 0.00),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 40.0),

@@ -39,7 +39,7 @@ class _AnnviewWidgetState extends State<AnnviewWidget> {
   @override
   Widget build(BuildContext context) {
     return Align(
-      alignment: AlignmentDirectional(0.00, 0.00),
+      alignment: AlignmentDirectional(0.0, 0.0),
       child: Padding(
         padding: EdgeInsetsDirectional.fromSTEB(30.0, 100.0, 30.0, 150.0),
         child: Container(
@@ -50,13 +50,13 @@ class _AnnviewWidgetState extends State<AnnviewWidget> {
             borderRadius: BorderRadius.circular(20.0),
           ),
           child: Align(
-            alignment: AlignmentDirectional(0.00, -1.00),
+            alignment: AlignmentDirectional(0.0, -1.0),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Align(
-                    alignment: AlignmentDirectional(1.00, 0.00),
+                    alignment: AlignmentDirectional(1.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 15.0, 0.0),
@@ -77,7 +77,7 @@ class _AnnviewWidgetState extends State<AnnviewWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(-1.00, 0.00),
+                    alignment: AlignmentDirectional(-1.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 15.0),
@@ -88,7 +88,7 @@ class _AnnviewWidgetState extends State<AnnviewWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0.00, 0.00),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
