@@ -8,6 +8,8 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
+import 'package:http/http.dart' as http;
+
 class LoginpageModel extends FlutterFlowModel<LoginpageWidget> {
   ///  State fields for stateful widgets in this page.
 
@@ -35,6 +37,24 @@ class LoginpageModel extends FlutterFlowModel<LoginpageWidget> {
 
     passwordFocusNode?.dispose();
     passwordController?.dispose();
+  }
+
+  Future<bool> login(String username, String password) async {
+    final url = 'http://192.168.100.22/hoasys_api/login.php';
+    final response = await http.post(
+      Uri.parse(url),
+      body: {'username': username, 'password': password},
+    );
+
+    if (response.body == 'success') {
+      // Login successful, perform desired actions
+      print('Login successful');
+      return true;
+    } else {
+      // Login failed, handle accordingly
+      print('Login failed');
+      return false;
+    }
   }
 
   /// Action blocks are added here.

@@ -280,13 +280,26 @@ class _LoginpageWidgetState extends State<LoginpageWidget> {
                       ),
                     ],
                   ),
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 0.0),
-                    child: FFButtonWidget(
-                      onPressed: () async {
-                        context.pushNamed('dashboard');
-                      },
+Padding(
+  padding: EdgeInsetsDirectional.fromSTEB(0.0, 80.0, 0.0, 0.0),
+  child: FFButtonWidget(
+    onPressed: () async {
+      // Get username and password from controllers
+      String username = _model.usernameController?.text ?? '';
+      String password = _model.passwordController?.text ?? '';
+
+      // Call login method in the model
+       bool loginSuccessful = await _model.login(username, password);
+
+      // Check the login result and navigate if successful
+      // You can customize this part based on your needs
+      if (loginSuccessful) {
+        Navigator.of(context).pushNamed('dashboard');
+      } else {
+        // Handle failed login
+        // You might want to show an error message to the user
+      }
+    },
                       text: 'Log In',
                       options: FFButtonOptions(
                         height: 40.0,
